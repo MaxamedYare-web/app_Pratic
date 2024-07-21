@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Replace method</title>
+</head>
+<style>
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: sans-serif;
+    }
+    .search{
+        margin-top: 15px;
+        position: relative;
+        background: rgb(96, 96, 211);
+        padding: 20px;
+        width: 500px;
+        border-radius: 5px;
+    }
+    input{
+        width: 100%;
+       padding: 10px 0;
+        position: relative;
+        outline: none;
+    }
+    button{
+        position: absolute;
+        right: 1%;
+        top: 25%;
+        border: none;
+        padding: 10px 10px;
+        color: #fff;
+        background: blue;
+        font-size: 1.0rem;
+    }
+    .title{
+        font-size: x-large;
+        font-weight: 800;
+margin-top: 20px;}
+.newChange{
+    margin-top: 15px;
+        position: relative;
+        background: rgb(180, 96, 211);
+        padding: 20px;
+        width: 500px;
+        border-radius: 5px;
+        display: none;
+}
+#newS{
+    width: 20%;
+    margin-top: 5px;
+   
+}
+#btn2{
+position: absolute;
+right: 1%;
+        top: 17%;
+        border: none;
+        padding: 10px 10px;
+        color: #fff;
+        background: blue;
+        font-size: 1.0rem;
+}
+    h3{
+        background: rgb(169, 41, 41);
+        padding: 15px;
+        color: #fff;
+        border-radius: 5px;
+        display: none;
+        width: auto;
+    }
+    @media (max-width:600px){
+        .search{
+        margin-top: 15px;
+        position: relative;
+        background: rgb(96, 96, 211);
+        padding: 20px;
+        width: 400px;
+        border-radius: 5px;
+    }
+    .newChange{
+    margin-top: 15px;
+        position: relative;
+        background: rgb(180, 96, 211);
+        padding: 20px;
+        width: 400px;
+        border-radius: 5px;
+        display: none;
+}
+    }
+    @media (max-width:360px){
+        .search{
+        margin-top: 15px;
+        position: relative;
+        background: rgb(96, 96, 211);
+        padding: 20px;
+        width: 220px;
+        border-radius: 5px;
+    }
+    .newChange{
+    margin-top: 15px;
+        position: relative;
+        background: rgb(180, 96, 211);
+        padding: 20px;
+        width: 220px;
+        border-radius: 5px;
+        display: none;
+}
+    }
+</style>
+<body>
+    
+<h2>replace method string</h2>
+<p>replace() method waa string waxa lu badala stringiya la birtilmamesti</p>
+<h3>Eber lama ogola😒 fadlan Ciwaan ku Qor Thanks🤨</h3>
+<div class="search">
+    <input type="text" id="textSearch" placeholder="Change String">
+    <button>Change</button>
+</div>
+<div class="title"></div>
+
+<div class="newChange">
+    <input id="search2" type="text" placeholder="interString....">
+    <input id="newS" type="text" placeholder="newString....">
+    <button id="btn2">NewChange</button>
+</div>
+
+
+<script src="./replace.js"></script>
+</body>
+</html>
